@@ -5,13 +5,13 @@ tolerance = 1.0E-8,
 /
 &SpaceManagement
 SpecMeshFile = 'box.mesh',
-polyDeg = 2,
-nPlot = 2,
+polyDeg = 4,
+nPlot = 10,
 xScale = 1.0D6,
 yScale = 1.0D6,
 /
 &GeoBarSParameters
-cDrag = 1.0D-3,
+cDrag = 5.0D-10,
 f0 = 1.0D-4,
 betaX = 0.0D0,
 betaY = 1.0D-11,
