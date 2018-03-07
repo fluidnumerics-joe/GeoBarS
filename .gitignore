@@ -1,0 +1,5 @@
+geobars
+*.o
+*.mod
+*.session
+*.session.gui
