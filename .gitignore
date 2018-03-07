@@ -3,3 +3,7 @@ geobars
 *.mod
 *.session
 *.session.gui
+*.pickup
+*.tec
+*.png
+*.curve
