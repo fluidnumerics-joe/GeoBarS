@@ -9,6 +9,9 @@ This example can be found under the `examples/ClassicGyre/` directory in the Geo
 ![Westward Intensification Stream Function](classic_gyre.png)
 
 ## Lau Basin Idealized Abyssal Circulation
+This example can be found under the `examples/LauBasinModel/` directory in the GeoBarS repository. This is an idealized model that examine the interactions of steady-state geostrophic and barotropic jets with topography. When the topography blocks the flow, the flow behaves in a manner similar to the island rule that was described in a paper by Joseph Pedlosky. Below are plots of the streamlines along the bottom topography showing two extremes : complete topographic blocking and a jet meander as fluid parcels pass over the ridge and conserve potential vorticity. 
 
 ![useful image](streamfunction_3dview.0000.png)
 ![useful image](streamfunction_3dview.0008.png)
+
+This demo was designed and run by Elizabeth Simons ( @treesquirrel1 ) as part of her dissertation.
