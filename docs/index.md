@@ -1,5 +1,6 @@
-## GeoBarS
+## GeoBarS (Geostrophic Barotropic Vorticity Solver)
 ![useful image](geobars_logo.png)
+
 GeoBarS is a numerical model that solves the geostrophic and barotropic vorticity equation. These equations are discretized using the Continuous Galerkin Spectral Element Method. The discrete system is inverted using GMRES with restarts (GMRES-m). 
 
 The chosen numerical method permits domain tesselation as an unstructured mesh of quadrilateral elements and exhibits spectral error convergence ( numerical error depends on the smoothness of the exact solution ). The unstructured mesh feature is particularly useful for this equation set, given the natural tendency for westward intensification on a beta-plane as it allows for local mesh refinement in areas where higher resolution is needed.
